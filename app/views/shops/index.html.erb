@@ -1,0 +1,6 @@
+ <%= link_to 'New Shop',new_shop_path %>
+<hr>
+<% @shops.each do |s|%>
+Name:<%= s.name%><br>
+Account Number:<%= s.accountnumber %><br><hr>
+<% end %>
